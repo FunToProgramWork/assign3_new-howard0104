@@ -176,6 +176,61 @@ void draw() {
     image(stone1,160,1360);
     image(stone1,400,1360);
     image(stone1,480,1360);
+    
+    //80 160 320 400 560
+    image(stone1,80,1440);
+    image(stone1,160,1440);
+    image(stone1,320,1440);
+    image(stone1,400,1440);
+    image(stone1,560,1440);
+    
+    image(stone1,80,1680);
+    image(stone1,160,1680);
+    image(stone1,320,1680);
+    image(stone1,400,1680);
+    image(stone1,560,1680);
+    
+    image(stone1,80,1920);
+    image(stone1,160,1920);
+    image(stone1,320,1920);
+    image(stone1,400,1920);
+    image(stone1,560,1920);
+    
+    //0 80 240 320 480 560
+    image(stone1,0,1520);
+    image(stone1,80,1520);
+    image(stone1,240,1520);
+    image(stone1,320,1520);
+    image(stone1,480,1520);
+    image(stone1,560,1520);
+    
+    image(stone1,0,1760);
+    image(stone1,80,1760);
+    image(stone1,240,1760);
+    image(stone1,320,1760);
+    image(stone1,480,1760);
+    image(stone1,560,1760);
+    
+    image(stone1,0,2000);
+    image(stone1,80,2000);
+    image(stone1,240,2000);
+    image(stone1,320,2000);
+    image(stone1,480,2000);
+    image(stone1,560,2000);
+    
+    //0 160 240 400 480
+    image(stone1,0,1600);
+    image(stone1,160,1600);
+    image(stone1,240,1600);
+    image(stone1,400,1600);
+    image(stone1,480,1600);
+    
+    image(stone1,0,1840);
+    image(stone1,160,1840);
+    image(stone1,240,1840);
+    image(stone1,400,1840);
+    image(stone1,480,1840);
+    
 		// Player
 
 
