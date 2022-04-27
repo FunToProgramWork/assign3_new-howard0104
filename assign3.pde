@@ -9,6 +9,7 @@ final int START_BUTTON_Y = 360;
 
 PImage title, gameover, startNormal, startHovered, restartNormal, restartHovered;
 PImage bg, soil8x24;
+PImage soil0,soil1,soil2,soil3,soil4,soil5;
 
 // For debug function; DO NOT edit or remove this!
 int playerHealth = 0;
@@ -26,9 +27,17 @@ void setup() {
 	restartNormal = loadImage("img/restartNormal.png");
 	restartHovered = loadImage("img/restartHovered.png");
 	soil8x24 = loadImage("img/soil8x24.png");
+  soil0=loadImage("img/soil0.png");
+  soil1=loadImage("img/soil1.png");
+  soil2=loadImage("img/soil2.png");
+  soil3=loadImage("img/soil3.png");
+  soil4=loadImage("img/soil4.png");
+  soil5=loadImage("img/soil5.png");
 }
 
 void draw() {
+  
+
     /* ------ Debug Function ------ 
 
       Please DO NOT edit the code here.
@@ -83,7 +92,15 @@ void draw() {
 
 		// Soil - REPLACE THIS PART WITH YOUR LOOP CODE!
 		image(soil8x24, 0, 160);
-
+    image(soil2,0,480);
+    image(soil2,80,480);
+    image(soil2,160,480);
+    image(soil2,240,480);
+    image(soil2,320,480);
+    image(soil2,400,480);
+    image(soil2,480,480);
+    image(soil2,560,480);
+    image(soil2,640,480);
 		// Player
 
 		// Health UI
