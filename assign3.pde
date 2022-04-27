@@ -17,7 +17,7 @@ float cameraOffsetY = 0;
 boolean debugMode = false;
 int x;
 int y;
-int sum=0;
+int x1,y1,x2,y2,x3,y3,x4,y4;
 void setup() {
 	size(640, 480, P2D);
 	// Enter your setup code here (please put loadImage() here or your game will lag like crazy)
@@ -105,8 +105,14 @@ void draw() {
     image(soil2,640,480);
     for(int x=0;x<640;x+=80){
       for(int y=480;y<800;y+=80){
-       // sum+=x;
-        image(soil5,x,y);
+       
+        image(soil1,x,y);
+      }
+    }
+    for(int x1=0;x1<640;x1+=80){
+      for(int y1=800;y1<1120;y1+=80){
+       
+        image(soil2,x1,y1);
       }
     }
       
