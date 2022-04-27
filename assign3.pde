@@ -94,15 +94,7 @@ void draw() {
 
 		// Soil - REPLACE THIS PART WITH YOUR LOOP CODE!
 		image(soil8x24, 0, 160);
-    image(soil2,0,480);
-    image(soil2,80,480);
-    image(soil2,160,480);
-    image(soil2,240,480);
-    image(soil2,320,480);
-    image(soil2,400,480);
-    image(soil2,480,480);
-    image(soil2,560,480);
-    image(soil2,640,480);
+
     for(int x=0;x<640;x+=80){
       for(int y=480;y<800;y+=80){
        
@@ -115,7 +107,24 @@ void draw() {
         image(soil2,x1,y1);
       }
     }
-      
+    for(int x2=0;x2<640;x2+=80){
+      for(int y2=1120;y2<1440;y2+=80){
+       
+        image(soil3,x2,y2);
+      }
+    }
+      for(int x3=0;x3<640;x3+=80){
+      for(int y3=1440;y3<1760;y3+=80){
+       
+        image(soil4,x3,y3);
+      }
+    }
+     for(int x4=0;x4<640;x4+=80){
+      for(int y4=1760;y4<2080;y4+=80){
+       
+        image(soil5,x4,y4);
+      }
+    }
 		// Player
 
 		// Health UI
