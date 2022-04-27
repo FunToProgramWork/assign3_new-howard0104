@@ -7,7 +7,7 @@ final int START_BUTTON_H = 60;
 final int START_BUTTON_X = 248;
 final int START_BUTTON_Y = 360;
 
-PImage title, gameover, startNormal, startHovered, restartNormal, restartHovered,life;
+PImage title, gameover, startNormal, startHovered, restartNormal, restartHovered,life,stone1,stone2;
 PImage bg, soil8x24;
 PImage soil0,soil1,soil2,soil3,soil4,soil5;
 
@@ -18,6 +18,7 @@ boolean debugMode = false;
 int x;
 int y;
 int x1,y1,x2,y2,x3,y3,x4,y4;
+int x5,y5;
 void setup() {
 	size(640, 480, P2D);
 	// Enter your setup code here (please put loadImage() here or your game will lag like crazy)
@@ -36,6 +37,8 @@ void setup() {
   soil4=loadImage("img/soil4.png");
   soil5=loadImage("img/soil5.png");
   life=loadImage("img/life.png");
+  stone1=loadImage("img/stone1.png");
+  stone2=loadImage("img/stone2.png");
 }
 
 void draw() {
@@ -131,6 +134,15 @@ void draw() {
         image(soil5,x4,y4);
       }
     }
+    
+    image(stone1,0,160);
+    image(stone1,80,240);
+    image(stone1,160,320);
+    image(stone1,240,400);
+    image(stone1,320,480);
+    image(stone1,400,560);
+    image(stone1,480,640);
+    image(stone1,560,720);
 		// Player
 
 		// Health UI
