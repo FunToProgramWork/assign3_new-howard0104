@@ -143,7 +143,41 @@ void draw() {
     image(stone1,400,560);
     image(stone1,480,640);
     image(stone1,560,720);
+    
+    image(stone1,80,800);
+    image(stone1,160,800);
+    image(stone1,400,800);
+    image(stone1,480,800);
+    image(stone1,0,880);
+    image(stone1,240,880);
+    image(stone1,320,880);
+    image(stone1,560,880);
+    image(stone1,0,960);
+    image(stone1,240,960);
+    image(stone1,320,960);
+    image(stone1,560,960);
+    image(stone1,80,1040);
+    image(stone1,160,1040);
+    image(stone1,400,1040);
+    image(stone1,480,1040);
+    image(stone1,80,1120);
+    image(stone1,160,1120);
+    image(stone1,400,1120);
+    image(stone1,480,1120);
+    image(stone1,0,1200);
+    image(stone1,240,1200);
+    image(stone1,320,1200);
+    image(stone1,560,1200);
+    image(stone1,0,1280);
+    image(stone1,240,1280);
+    image(stone1,320,1280);
+    image(stone1,560,1280);
+     image(stone1,80,1360);
+    image(stone1,160,1360);
+    image(stone1,400,1360);
+    image(stone1,480,1360);
 		// Player
+
 
 		// Health UI
 
