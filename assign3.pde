@@ -15,7 +15,9 @@ PImage soil0,soil1,soil2,soil3,soil4,soil5;
 int playerHealth = 0;
 float cameraOffsetY = 0;
 boolean debugMode = false;
-
+int x;
+int y;
+int sum=0;
 void setup() {
 	size(640, 480, P2D);
 	// Enter your setup code here (please put loadImage() here or your game will lag like crazy)
@@ -101,6 +103,13 @@ void draw() {
     image(soil2,480,480);
     image(soil2,560,480);
     image(soil2,640,480);
+    for(int x=0;x<640;x+=80){
+      for(int y=480;y<800;y+=80){
+       // sum+=x;
+        image(soil5,x,y);
+      }
+    }
+      
 		// Player
 
 		// Health UI
